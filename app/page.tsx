@@ -492,7 +492,7 @@ export default function Page() {
     <main className="min-h-screen bg-background">
       {/* ── Hero Section ── */}
       <section className="max-w-5xl mx-auto px-6 pt-24 pb-20 text-center">
-        <span
+        {/* <span
           className="inline-flex items-center rounded-full px-4 py-1.5 text-xs font-semibold tracking-widest uppercase mb-8"
           style={{
             backgroundColor: "var(--hero-badge-bg)",
@@ -500,13 +500,19 @@ export default function Page() {
           }}
         >
           Selected Work
-        </span>
-
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-foreground text-balance leading-tight mb-6">
-          Building Products That Scale
+        </span> */}
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-foreground text-balance leading-tight mb-2">
+          Piyush S. Portfolio
         </h1>
+        <h3 className="text-xl sm:text-2xl md:text-xl font-semibold tracking-tight text-foreground text-balance leading-tight my-4">
+          10+ years' experience · AI-focused full-stack developer
+        </h3>
 
-        <p className="max-w-2xl mx-auto text-base sm:text-lg text-muted-foreground leading-relaxed text-pretty">
+        <h3 className="text-2xl sm:text-3xl md:text-2xl font-semibold tracking-tight text-foreground text-balance leading-tight my-6">
+          Building Products That Scale
+        </h3>
+
+        <p className="max-w-4xl mx-auto text-base sm:text-lg text-muted-foreground leading-relaxed text-pretty">
           With 10+ projects shipped across industries like travel, healthcare,
           SaaS, and e-commerce, I specialize in turning complex requirements
           into seamless digital experiences. Whether it's a CRM, marketplace,
