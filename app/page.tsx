@@ -320,7 +320,15 @@ const projects: Project[] = [
       "New UI for Kapable, a leadership and communication training platform: a refreshed visual language, learning-journey screens and a component library for the product's next iteration. Delivered as a full product redesign in Figma.",
     techStack: ["Figma", "UI Redesign", "Component Library"],
     liveLink: "https://www.figma.com/file/zKS5smyQOlYLITfJMDGqn9/Kapable-New-UI?type=design&node-id=0-1",
-  }
+  },
+  {
+  title: "Growtheon — GoHighLevel Clone / Agency SaaS Platform",
+  description:
+    "A full-scale replica of GoHighLevel built for agencies: CRM, marketing automations, funnel builder, AI tools and white-label client workspaces in one platform. Delivered as a complete multi-tenant agency SaaS product.",
+  techStack: ["SaaS", "CRM", "GHL Clone", "White-Label", "AI Integration"],
+  liveLink: "https://www.growtheon.com",
+},
+
 ]
 
 /* ──────────────────────────────────────────────────────────
