@@ -527,7 +527,7 @@ export default async function Page() {
           {owner.firstName} {owner.surnameInitial}. Portfolio
         </h1>
         <h3 className="text-xl sm:text-2xl md:text-xl font-semibold tracking-tight text-foreground text-balance leading-tight my-4">
-          10+ years' experience · AI-focused full-stack developer
+          {owner.experience} years' experience · AI-focused full-stack developer
         </h3>
 
         <h3 className="text-2xl sm:text-3xl md:text-2xl font-semibold tracking-tight text-foreground text-balance leading-tight my-6">
