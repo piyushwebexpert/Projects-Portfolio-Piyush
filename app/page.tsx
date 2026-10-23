@@ -328,6 +328,13 @@ const projects: Project[] = [
   techStack: ["SaaS", "CRM", "GHL Clone", "White-Label", "AI Integration"],
   liveLink: "https://www.growtheon.com",
 },
+{
+  title: "AI Assistant Suite — 5 Business Bots in One Platform",
+  description:
+    "An all-in-one AI assistant platform for businesses featuring five embeddable bots: Document Q&A powered by RAG, Virtual Receptionist, automated Reminder Calls, Lead Capture and Guided Intake Forms. Designed to streamline customer communication, automate workflows and simplify business operations through a multi-tenant SaaS platform.",
+  techStack: ["AI Chatbot", "Voice AI", "RAG", "Automation", "Multi-Tenant SaaS"],
+  liveLink: "https://ai-assistant-psi-six.vercel.app/documents?embed=true",
+},
 
 ]
 
