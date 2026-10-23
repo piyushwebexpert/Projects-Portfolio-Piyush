@@ -7,6 +7,7 @@
  *   surbhi-projects-portfolio.vercel.app   → "Surbhi G."
  *   gaurav-project-portfolio.vercel.app    → "Gaurav B."
  *   project-portfolio-paridhi.vercel.app   → "Paridhi G."
+ *   project-portfolio-piyush.vercel.app    → "Piyush S."
  */
 
 export type PortfolioOwner = {
@@ -24,6 +25,7 @@ const OWNERS_BY_SLUG: Record<string, PortfolioOwner> = {
   surbhi: { firstName: "Surbhi", surnameInitial: "G" },
   gaurav: { firstName: "Gaurav", surnameInitial: "B" },
   paridhi: { firstName: "Paridhi", surnameInitial: "G" },
+  piyush: { firstName: "Piyush", surnameInitial: "S" },
 }
 
 /** Used for localhost, previews and any hostname without a known slug. */
